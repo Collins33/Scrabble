@@ -32,5 +32,25 @@ public class ScrabbleTest{
     Integer expected=4;
     assertEquals(expected, testScrabble.calculateScore("f"));
   }
+  @Test
+  public void calculateScore_returnScoreForSingleLetter_5(){
+    Scrabble testScrabble=new Scrabble();
+    Integer expected=5;
+    assertEquals(expected,testScrabble.calculateScore("k"));
+  }
+  @Test
+  public void calculateScore_returnScoreForSingleLetter_8(){
+    Scrabble testScrabble=new Scrabble();
+    Integer expected=8;
+    assertEquals(expected,testScrabble.calculateScore("j"));
+
+  }
+  @Test
+  public void calculateScore_returnScoreForSingleLetter_10(){
+    Scrabble testScrabble=new Scrabble();
+    Integer expected=10;
+    assertEquals(expected,testScrabble.calculateScore("q"));
+
+  }
 
 }
