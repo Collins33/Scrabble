@@ -20,4 +20,17 @@ public class ScrabbleTest{
     Integer expected=2;
     assertEquals(expected, testScrabble.calculateScore("d"));
   }
+  @Test
+  public void calculateScore_returnScoreForSingleLetter_3(){
+    Scrabble testScrabble=new Scrabble();
+    Integer expected=3;
+    assertEquals(expected,testScrabble.calculateScore("b"));
+  }
+  @Test
+  public void calculateScore_returnScoreForSingleLetter_4(){
+    Scrabble testScrabble= new Scrabble();
+    Integer expected=4;
+    assertEquals(expected, testScrabble.calculateScore("f"));
+  }
+
 }
