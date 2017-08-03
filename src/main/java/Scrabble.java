@@ -1,11 +1,18 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Arrays;
+
+
 public class Scrabble {
 
 public Integer calculateScore(String myLetter){
-        if(myLetter.equals("a")) {
-                return 1;
+  String[] stuff={"a","e","i","o","u","l","n","r","s","t"};
+  List letter=Arrays.asList(stuff);
+        if(letter.contains(myLetter)){
+          return 1;
         }
         else{
-                return 30;
+          return 30;
         }
 
 }

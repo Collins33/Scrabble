@@ -8,4 +8,10 @@ public class ScrabbleTest{
     Integer expected=1;
     assertEquals(expected, testScrabble.calculateScore("a"));
   }
+  @Test
+  public void calculateScore_returnScoreForSingleLetterInArray_1(){
+    Scrabble testScrabble=new Scrabble();
+    Integer expected=1;
+    assertEquals(expected, testScrabble.calculateScore("e"));
+  }
 }
