@@ -11,8 +11,11 @@ public Integer calculateScore(String myLetter){
         if(letter.contains(myLetter)){
           return 1;
         }
+        else if(myLetter.equals("d")){
+          return 2;
+        }
         else{
-          return 30;
+          return 20;
         }
 
 }

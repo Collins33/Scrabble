@@ -14,4 +14,10 @@ public class ScrabbleTest{
     Integer expected=1;
     assertEquals(expected, testScrabble.calculateScore("e"));
   }
+  @Test
+  public void calculateScore_returnScoreForSingleLetter2_2(){
+    Scrabble testScrabble = new Scrabble();
+    Integer expected=2;
+    assertEquals(expected, testScrabble.calculateScore("d"));
+  }
 }

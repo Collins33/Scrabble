@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ScrabbleTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-08-03T13:42:10" hostname="collins-Lenovo-Flex-2-14" time="0.003">
+<testsuite name="ScrabbleTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-08-03T13:55:30" hostname="collins-Lenovo-Flex-2-14" time="0.003">
   <properties/>
   <testcase name="calculateScore_returnScoreForSingleLetter_1" classname="ScrabbleTest" time="0.002"/>
   <testcase name="calculateScore_returnScoreForSingleLetterInArray_1" classname="ScrabbleTest" time="0.0"/>
+  <testcase name="calculateScore_returnScoreForSingleLetter2_2" classname="ScrabbleTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
